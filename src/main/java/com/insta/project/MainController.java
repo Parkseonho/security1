@@ -12,4 +12,10 @@ public class MainController {
     public String loginForm(){
         return "login";
     }
+
+    @GetMapping("/signup")
+//    @ResponseBody
+    public String signForm(){
+        return "signup";
+    }
 }
