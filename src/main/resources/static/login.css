@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* 전체적인 틀 중앙화 */
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+
+/* 아이템들 넣을 틀 크기 및 세부적인 세팅*/
+#container-data{
+    padding: 20px;
+    margin-top: 20px;
+    border: 1px solid rgb(154, 149, 149);
+    width: 340px;
+    height: 400px;
+}
+
+/*아이템들 수직 중앙 정렬화 */
+#data {
+    padding: 10px;
+    text-align: center;
+}
+/* 버튼 넓이*/
+#data button{
+    width: 280px;
+}
+
+/* 또는 폰트 만들어주기기 */
+#data h6{
+    font-size: 14px;
+    border-bottom: 1px solid black;
+    line-height: 0.1px;
+}
+
+#data h6 span{
+    background-color: white;
+    padding: 11px;
+}
+
+/* 비밀번호를 잊으셨나요?*/
+#data p{
+    margin-top: 10px;
+}
+
+#data a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+#data span{
+    margin-right: 5px;
+}
+
+.container2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#container2-data{
+     padding: 10px;
+     border: 1px solid rgb(154, 149, 149);
+     width: 340px;
+     height: 50px;
+     text-align: center;
+     font-size: 14px;
+}
