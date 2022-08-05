@@ -5,20 +5,20 @@
 
 /* 전체적인 틀 중앙화 */
 .container{
-    display: flex;
+    /*display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 100px;
+    margin-top: 100px;*/
 }
 
 
 /* 아이템들 넣을 틀 크기 및 세부적인 세팅*/
 #container-data{
-    padding: 20px;
-    margin-top: 20px;
-    border: 1px solid rgb(154, 149, 149);
-    width: 340px;
-    height: 400px;
+   /* padding: 20px; */
+   /* margin-top: 20px;*/
+    border: 1px solid rgba(192, 192, 192, 0.5);
+    width: 370px;
+    height: 450px;
 }
 
 /*아이템들 수직 중앙 정렬화 */
@@ -28,48 +28,64 @@
 }
 /* 버튼 넓이*/
 #data button{
-    width: 280px;
+    width: 100%;
+    color: white;
 }
 
 /* 또는 폰트 만들어주기기 */
 #data h6{
+    margin-top: 10px;
     font-size: 14px;
-    border-bottom: 1px solid black;
+    font-weight: bold;
+    color: rgba(64, 64, 64, 0.5);
+    border-bottom: 1.5px solid rgb(192, 192, 192);
     line-height: 0.1px;
 }
 
 #data h6 span{
+    margin-top: 10px;
     background-color: white;
-    padding: 11px;
+    padding: 20px;
+}
+
+#data h5{
+    font-size: 15px;
+    font-weight: bold;
+    color: rgba(64, 64, 64, 0.5)
 }
 
 /* 비밀번호를 잊으셨나요?*/
 #data p{
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
+/* 비밀번호를 잊으셨나요? 폰트관련 */
 #data a{
     text-decoration: none;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 13px;
 }
 
+/* facebook 로그인 관련 */
 #data span{
     margin-right: 5px;
 }
 
 .container2{
-    display: flex;
+    /*display: flex;
     justify-content: center;
-    align-items: center;
-    margin-top: 20px;
+    align-items: center;*/
 }
 
 #container2-data{
      padding: 10px;
-     border: 1px solid rgb(154, 149, 149);
-     width: 340px;
-     height: 50px;
-     text-align: center;
+     border: 1px solid rgba(192, 192, 192, 0.5);
+     width: 370px;
+     height: 60px;
      font-size: 14px;
+}
+
+#join {
+    padding: 10px;
+    font-weight: bold;
 }
