@@ -1,0 +1,28 @@
+/* 상단 네비바 프로필 크기관련 */
+.topbar-profile-photo{
+    width: 1.5em;
+    height: 1.5em;
+    position: relative;
+}
+
+/* 상단 친구목록? 프로필 크기관련 */
+.story-profile-photo{
+    width: 56px;
+    height: 56px;
+    position: relative;
+    border-width: 2px !important/*  다른색상으로 안변하게 고정 시켜줌  */
+}
+
+.post-profile-photo {
+     width: 46px;
+     height: 46px;
+     position: relative;
+     border-width: 2px !important/*  다른색상으로 안변하게 고정 시켜줌  */
+}
+
+.post-s-profile-photo {
+     width: 26px;
+     height: 26px;
+     position: relative;
+     border-width: 2px !important/*  다른색상으로 안변하게 고정 시켜줌  */
+}

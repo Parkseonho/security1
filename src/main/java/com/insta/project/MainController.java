@@ -18,4 +18,12 @@ public class MainController {
     public String signForm(){
         return "signup";
     }
+
+    @GetMapping("/story")
+//    @ResponseBody
+    public String story(){
+        return "story";
+    }
 }
+
+
